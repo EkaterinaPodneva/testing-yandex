@@ -1,0 +1,21 @@
+.gradient {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: -2;
+}
+
+.gradient--lg {
+  width: 100%;
+  height: 750px;
+}
+
+.gradient--pink {
+  opacity: 0.22;
+  background-image: linear-gradient(90deg, #FF5C4D 0%, #EB469F 25%, #8341EF 72%, #3F68F9 100%);
+  -mask-image: linear-gradient(to bottom,  #FF5C4D, #EB469F, #8341EF, #3F68F9,  90%, rgba(0,0,0,0));
+    -webkit-mask-image: linear-gradient(to bottom,  #FF5C4D, #EB469F, #8341EF, #3F68F9,  90%, rgba(0,0,0,0));
+  
+}
+
+
